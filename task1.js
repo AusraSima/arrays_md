@@ -28,5 +28,8 @@ let people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darne
 'Mitchell','Molina','Monroe','Lucas','Jake','Scott','Amy','Molly','Hannah','Lucas'] ;
 
 let waldoIndexes = people.map(findWaldo);
+let waldo = people.filter(person => person === "Waldo");
 
-document.getElementById("content").innerHTML = waldoIndexes;
+let count = waldo.length;
+
+document.getElementById("content").innerHTML = `${waldoIndexes}<br>${count}`;
