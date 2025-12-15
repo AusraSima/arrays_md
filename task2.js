@@ -1,3 +1,4 @@
+// eslint-disable-next-line semi
 "use strict"
 
 // Declaring the array

@@ -1,0 +1,25 @@
+{
+  "name": "arrays_md",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AusraSima/arrays_md#readme",
+  "bugs": {
+    "url": "https://github.com/AusraSima/arrays_md/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AusraSima/arrays_md.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "task1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^16.5.0"
+  }
+}
