@@ -1,13 +1,16 @@
 "use strict"
 
-// Write a function max that takes an array of numbers returns the highest number in the array.
+// Declaring the array
+// let myArray = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
 
-function findMax(arr){
-    return Math.max(...arr);
-}
+// print the 3rd item here
+// change the 'thursday' value to null here
+// print the position of step 2
 
-let numbers = [1, 0, -1, 20, 105, -26];
 
-let result = findMax(numbers);
+const myArray = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
 
-document.getElementById("content").innerHTML = result;
+myArray.splice(0, 4, null);
+
+document.getElementById("content").innerHTML = `Third item ${myArray[2]}<br>
+changed position ${myArray[4]}`;

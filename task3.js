@@ -1,24 +1,13 @@
 "use strict"
 
-// Write a function sumNumbers which is given an array of numbers and returns 
-// the sum of the numbers. Do the same with reduce() method.
+// Write a function max that takes an array of numbers returns the highest number in the array.
 
-function sumNumbers(array) {
-    let sum = 0;
-    for (let i = 0; i < array.length; i++){
-        sum += array[i];
-    }
-    return sum;
+function findMax(arr){
+    return Math.max(...arr);
 }
 
-function sumTwo(x, y){
-    return x + y;
-}
+let numbers = [1, 0, -1, 20, 105, -26];
 
-const numbers = [1, -2, 10, -5, 16, 0, 42];
+let result = findMax(numbers);
 
-let result1 = sumNumbers(numbers);
-let result2 = numbers.reduce(sumTwo, numbers[0]);
-result2 -= numbers[0];
-
-document.getElementById("content").innerHTML = `${result1}<br>${result2} `;
+document.getElementById("content").innerHTML = result;

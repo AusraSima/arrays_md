@@ -1,6 +1,7 @@
 "use strict"
 
-// Please loop this entire array and print the positions where the string "Waldo" is found. Count how many "Waldo" are in array.
+// Please loop this entire array and print the positions where the string
+//  "Waldo" is found. Count how many "Waldo" are in array.
 
 function findWaldo(text, index){
     if (text == "Waldo")
